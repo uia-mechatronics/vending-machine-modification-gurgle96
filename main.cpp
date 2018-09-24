@@ -22,10 +22,11 @@ int main()
     // Create a cola object. Constructor will be called with given parameters.
     Soda cola("Colabrus", 34, 4);
     // We have a variable named cola with Soda as its data type.
-
+    Soda solo("Appelsninbrus",30,7);
     // Call the VendingMachine addType function with cola variable as parameter.
     vendingMachine.addType(cola);
     // Print inventory using public printInventory member function (method).
+    vendingMachine.addType(solo);
     vendingMachine.printInventory();
 
 
